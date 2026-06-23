@@ -7,6 +7,8 @@ from src.embeddings import create_embeddings
 from src.recommender import recommend
 from src.itinerary import build_itinerary
 
+from src.geo_utils import haversine, estimate_time_minutes
+
 # -------------------------
 # CONFIG
 # -------------------------
@@ -136,8 +138,10 @@ if st.session_state.itinerary:
     )
 
     for day_index, day_places in enumerate(
+        
         st.session_state.itinerary
     ):
+        total_time = 0
 
         st.divider()
 
@@ -205,3 +209,27 @@ if st.session_state.itinerary:
             width=900,
             height=450
         )
+
+        for i in range(len(day_places) - 1):
+
+            a = day_places[i]["coordinates"]
+            b = day_places[i + 1]["coordinates"]
+
+            dist = haversine(
+                (a["lat"], a["lng"]),
+                (b["lat"], b["lng"])
+            )
+
+            minutes = estimate_time_minutes(dist)
+
+            total_time += minutes
+
+            st.write(
+                f"🚶 {day_places[i]['name']} → {day_places[i+1]['name']}: "
+                f"{int(minutes)} min"
+            )
+
+            st.write(
+                f"⏱ Tiempo total de desplazamiento: "
+                f"{int(total_time)} min"
+            ) 

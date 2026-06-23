@@ -1,6 +1,64 @@
 import numpy as np
 from sklearn.cluster import KMeans
 
+from math import radians, sin, cos, sqrt, atan2
+
+
+
+def haversine(a, b):
+
+    R = 6371
+
+    lat1, lon1 = a
+    lat2, lon2 = b
+
+    dlat = radians(lat2 - lat1)
+    dlon = radians(lon2 - lon1)
+
+    h = (
+        sin(dlat / 2) ** 2 +
+        cos(radians(lat1)) *
+        cos(radians(lat2)) *
+        sin(dlon / 2) ** 2
+    )
+
+    return 2 * R * atan2(sqrt(h), sqrt(1 - h))
+
+
+def sort_by_real_path(places):
+
+    if not places:
+        return []
+
+    remaining = places.copy()
+
+    ordered = [remaining.pop(0)]
+
+    while remaining:
+
+        last = ordered[-1]
+
+        last_coords = (
+            last["coordinates"]["lat"],
+            last["coordinates"]["lng"]
+        )
+
+        next_place = min(
+            remaining,
+            key=lambda p: haversine(
+                last_coords,
+                (
+                    p["coordinates"]["lat"],
+                    p["coordinates"]["lng"]
+                )
+            )
+        )
+
+        ordered.append(next_place)
+        remaining.remove(next_place)
+
+    return ordered
+
 def build_itinerary(
     ranked_places,
     days,
@@ -59,6 +117,8 @@ def build_itinerary(
     for day in range(days):
 
         day_places = clusters.get(day, [])
+
+        day_places = sort_by_real_path(day_places)
 
         # ordenar por relevancia dentro del cluster
         day_places = sorted(
