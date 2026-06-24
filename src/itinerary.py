@@ -129,11 +129,31 @@ def build_itinerary(
 
         remaining = hours_per_day
         final_day = []
-
+        
+        MAX_DISTANCE_KM = 5
+        
         for place in day_places:
-
+        
+            if len(final_day) > 0:
+            
+                previous = final_day[-1]
+        
+                dist = haversine(
+                    (
+                        previous["coordinates"]["lat"],
+                        previous["coordinates"]["lng"]
+                    ),
+                    (
+                        place["coordinates"]["lat"],
+                        place["coordinates"]["lng"]
+                    )
+                )
+        
+                if dist > MAX_DISTANCE_KM:
+                    continue
+                
             if place["duration"] <= remaining:
-
+            
                 final_day.append(place)
                 remaining -= place["duration"]
 

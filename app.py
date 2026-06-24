@@ -7,7 +7,7 @@ from src.embeddings import create_embeddings
 from src.recommender import recommend
 from src.itinerary import build_itinerary
 
-from src.geo_utils import haversine, estimate_time_minutes
+from src.geo_utils import haversine, estimate_transport 
 
 # -------------------------
 # CONFIG
@@ -220,13 +220,15 @@ if st.session_state.itinerary:
                 (b["lat"], b["lng"])
             )
 
-            minutes = estimate_time_minutes(dist)
+            transport = estimate_transport(dist)
 
-            total_time += minutes
+            total_time += transport["minutes"]
 
             st.write(
-                f"🚶 {day_places[i]['name']} → {day_places[i+1]['name']}: "
-                f"{int(minutes)} min"
+                f"{transport['mode']} "
+                f"{day_places[i]['name']} → "
+                f"{day_places[i+1]['name']}: "
+                f"{transport['minutes']} min"
             )
 
             st.write(
