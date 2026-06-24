@@ -71,25 +71,20 @@ with col2:
         ]
     )
 
-likes = st.multiselect(
-    "¿Qué te interesa?",
-    [
-        "history",
-        "nature",
-        "anime",
-        "technology",
-        "shopping",
-        "art",
-        "food",
-        "nightlife",
-        "culture",
-        "architecture",
-        "gardens",
-        "photography",
-        "traditional",
-        "modern",
-        "museums"
-    ]
+user_prompt = st.text_area(
+    "Cuéntame qué te gusta",
+    placeholder="""
+Ejemplos:
+
+- Me gustan los templos, la historia japonesa y los jardines tranquilos.
+
+- Viajo con mi pareja y buscamos lugares románticos y buenas vistas.
+
+- Soy fan del anime, los videojuegos y la tecnología.
+
+- Quiero ver el Tokio más tradicional y auténtico.
+""",
+    height=150
 )
 
 # -------------------------
@@ -105,15 +100,15 @@ if "itinerary" not in st.session_state:
 
 if st.button("🚀 Generar itinerario"):
 
-    if not likes:
+    if not user_prompt.strip():
 
         st.warning(
-            "Selecciona al menos un interés."
+            "Describe qué te gusta."
         )
 
     else:
 
-        query = " ".join(likes)
+        query = user_prompt
 
         recommendations = recommend(
             query=query,
