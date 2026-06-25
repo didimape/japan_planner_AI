@@ -2,6 +2,7 @@ import streamlit as st
 import folium
 from streamlit_folium import st_folium
 
+from src.llm_parser import extract_preferences
 from src.load_data import load_places
 from src.embeddings import create_embeddings
 from src.recommender import recommend
@@ -108,10 +109,44 @@ if st.button("🚀 Generar itinerario"):
 
     else:
 
-        query = user_prompt
+        raw = extract_preferences(user_prompt)
+
+        st.write("🧠 Preferencias detectadas:")
+        st.info(raw)
+
+        interests = ""
+        avoid = ""
+
+        for line in raw.split("\n"):
+            if "INTERESTS:" in line:
+                interests = line.replace("INTERESTS:", "").strip()
+
+            if "AVOID:" in line:
+                avoid = line.replace("AVOID:", "").strip()
+
+        st.write("🧠 Intereses detectados:")
+        st.info(interests)
+
+        st.write("🚫 A evitar:")
+        st.info(avoid)
+
+        filtered_places = []
+
+        for place in places:
+        
+            text = (
+                place["name"] + " " +
+                place["description"] + " " +
+                " ".join(place["tags"])
+            ).lower()
+
+            if any(word in text for word in avoid.split()):
+                continue
+            
+            filtered_places.append(place)
 
         recommendations = recommend(
-            query=query,
+            query=interests,
             places=places,
             embeddings=embeddings,
             top_k=30
@@ -226,7 +261,7 @@ if st.session_state.itinerary:
                 f"{transport['minutes']} min"
             )
 
-            st.write(
+        st.write(
                 f"⏱ Tiempo total de desplazamiento: "
                 f"{int(total_time)} min"
-            ) 
+            )     

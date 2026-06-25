@@ -1,44 +1,53 @@
 import numpy as np
 from sentence_transformers import SentenceTransformer
 
-model = SentenceTransformer(
-    'all-MiniLM-L6-v2'
-)
+model = SentenceTransformer('all-MiniLM-L6-v2')
 
 
 def cosine(a, b):
-    return np.dot(a, b) / (
-        np.linalg.norm(a)
-        * np.linalg.norm(b)
-    )
+    return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
 
-def recommend(
-        query,
-        places,
-        embeddings,
-        top_k = 20
-):
+
+def recommend(query, places, embeddings, top_k=30, avoid=None):
+
     query_vec = model.encode([query])[0]
 
-    scores = []
+    results = []
 
-    for places, emb in zip(
-        places,
-        embeddings
-    ):
-        score = cosine(
-            query_vec,
-            emb
-        )
+    avoid_words = avoid.lower().split() if avoid else []
 
-        place_copy = places.copy()
+    for place, emb in zip(places, embeddings):
+
+        score = cosine(query_vec, emb)
+
+        text = (
+            place["name"] + " " +
+            place["description"] + " " +
+            " ".join(place["tags"])
+        ).lower()
+
+        # ❌ PENALIZACIÓN (NO QUIERO ESTO)
+        if avoid_words:
+            if any(word in text for word in avoid_words):
+                score -= 0.5
+
+        # 🎯 BOOSTS (EJEMPLOS PROYECTO)
+        if "manga" in query.lower() and "nakano" in text:
+            score += 0.4
+
+        if "photography" in query.lower():
+            if "tower" in text or "view" in text or "sky" in text:
+                score += 0.2
+
+        if "romantic" in query.lower():
+            if "park" in text or "garden" in text:
+                score += 0.2
+
+        place_copy = place.copy()
         place_copy["score"] = score
 
-        scores.append((place_copy, score))
+        results.append(place_copy)
 
-    scores.sort(
-        key=lambda x: x[1],
-        reverse=True
-    )
+    results.sort(key=lambda x: x["score"], reverse=True)
 
-    return scores[:top_k]
+    return [(p, p["score"]) for p in results[:top_k]]
