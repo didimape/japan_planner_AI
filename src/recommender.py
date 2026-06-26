@@ -1,5 +1,8 @@
+from unicodedata import category
+
 import numpy as np
 from sentence_transformers import SentenceTransformer
+from src.preferences import CATEGORY_MAP
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
@@ -14,7 +17,18 @@ def recommend(query, places, embeddings, top_k=30, avoid=None):
 
     results = []
 
-    avoid_words = avoid.lower().split() if avoid else []
+    avoid_words = []
+
+    if avoid:
+        for word in avoid.lower().split():
+
+            avoid_words.append(word)
+
+            if word in CATEGORY_MAP:
+                avoid_words.extend(CATEGORY_MAP[word])
+
+    # Eliminar duplicados
+    avoid_words = list(set(avoid_words))
 
     for place, emb in zip(places, embeddings):
 
@@ -26,10 +40,16 @@ def recommend(query, places, embeddings, top_k=30, avoid=None):
             " ".join(place["tags"])
         ).lower()
 
-        # ❌ PENALIZACIÓN (NO QUIERO ESTO)
+        # 🚫 FILTRO POR CATEGORÍA Y TEXTO
         if avoid_words:
-            if any(word in text for word in avoid_words):
-                score -= 0.5
+
+            category = place["category"].lower()
+
+            if (
+                category in avoid_words or
+                any(word in text for word in avoid_words)
+            ):
+                continue
 
         # 🎯 BOOSTS (EJEMPLOS PROYECTO)
         if "manga" in query.lower() and "nakano" in text:
