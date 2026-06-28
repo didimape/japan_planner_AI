@@ -10,6 +10,7 @@ from src.itinerary import build_itinerary
 
 from src.geo_utils import haversine, estimate_transport 
 
+from src.predictor import predict_preferences
 # -------------------------
 # CONFIG
 # -------------------------
@@ -109,26 +110,38 @@ if st.button("🚀 Generar itinerario"):
 
     else:
 
-        raw = extract_preferences(user_prompt)
+        st.session_state.day_type = predict_preferences(user_prompt)
 
-        st.write("🧠 Preferencias detectadas:")
-        st.info(raw)
+        if st.session_state.day_type == "anime_day":
+            boost = ["anime", "manga", "arcade", "otaku", "nakano"]
 
-        interests = ""
+        elif st.session_state.day_type == "food_day":
+            boost = ["ramen", "sushi", "food", "restaurant", "market"]
+
+        elif st.session_state.day_type == "romantic_day":
+            boost = ["garden", "view", "park", "sunset", "tower"]
+
+        else:
+            boost = []
+
+        query = f"{st.session_state.day_type} " + " ".join(boost) + " " + user_prompt
         avoid = ""
+        
+        predicted_category = predict_preferences(user_prompt)
+        st.session_state.day_type = predicted_category
 
-        for line in raw.split("\n"):
-            if "INTERESTS:" in line:
-                interests = line.replace("INTERESTS:", "").strip()
+        st.write("🧠 Categoría detectada por el modelo:")
 
-            if "AVOID:" in line:
-                avoid = line.replace("AVOID:", "").strip()
+        st.info(predicted_category)
+        
+        st.success(f"Categoría principal detectada: {predicted_category}")
 
-        st.write("🧠 Intereses detectados:")
+
+        """st.write("🧠 Intereses detectados:")
         st.info(interests)
 
         st.write("🚫 A evitar:")
-        st.info(avoid)
+        st.info(avoid)"""
 
         filtered_places = []
 
@@ -146,7 +159,7 @@ if st.button("🚀 Generar itinerario"):
             filtered_places.append(place)
 
         recommendations = recommend(
-            query=interests,
+            query=query,
             places=places,
             embeddings=embeddings,
             top_k=30
@@ -166,6 +179,9 @@ if st.session_state.itinerary:
     st.success(
         "Itinerario generado correctamente."
     )
+    
+    if "st.session_state.day_type" not in st.session_state:
+        st.session_state.day_type = "mixed_day"
 
     for day_index, day_places in enumerate(
         
@@ -175,9 +191,7 @@ if st.session_state.itinerary:
 
         st.divider()
 
-        st.header(
-            f"📅 Día {day_index + 1}"
-        )
+        st.header(f"📅 Día {day_index + 1} - {st.session_state.day_type}")
 
         if len(day_places) == 0:
 
