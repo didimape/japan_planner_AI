@@ -11,6 +11,36 @@ from src.itinerary import build_itinerary
 from src.geo_utils import haversine, estimate_transport 
 
 from src.predictor import predict_preferences
+
+
+# -------------------------
+# BACKGROUND
+# -------------------------
+
+def set_background_image(image_file):
+    st.markdown(f"""
+    <style>
+    .stApp {{
+        background-image: url({image_file});
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }}
+
+    .stApp::before {{
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.35);
+        z-index: -1;
+    }}
+    </style>
+    """, unsafe_allow_html=True)
+
+set_background_image("https://previews.123rf.com/images/perori/perori1801/perori180100152/93215850-pink-cherry-blossom-vector-illustration.avif")
 # -------------------------
 # CONFIG
 # -------------------------

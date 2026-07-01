@@ -1072,5 +1072,2043 @@
       "lat": 35.701306,
       "lng": 139.735496
     }
-  }
+  },
+  {
+    "name": "Animate Akihabara",
+    "district": "Akihabara",
+    "category": "anime",
+    "tags": ["anime", "manga", "shopping", "figures", "otaku"],
+    "description": "One of Japan's largest anime stores, offering manga, figures, Blu-rays and exclusive merchandise.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6984,
+        "lng": 139.7731
+    }
+},
+{
+    "name": "Mandarake Complex",
+    "district": "Akihabara",
+    "category": "anime",
+    "tags": ["anime", "manga", "retro", "collectibles", "shopping"],
+    "description": "Eight-floor paradise for second-hand manga, anime figures, games and rare collectibles.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6988,
+        "lng": 139.7717
+    }
+},
+{
+    "name": "Radio Kaikan",
+    "district": "Akihabara",
+    "category": "anime",
+    "tags": ["anime", "figures", "shopping", "collectibles"],
+    "description": "Iconic shopping building filled with hobby stores, figures, trading cards and anime merchandise.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6986,
+        "lng": 139.7730
+    }
+},
+{
+    "name": "Super Potato Akihabara",
+    "district": "Akihabara",
+    "category": "gaming",
+    "tags": ["retro", "games", "nintendo", "arcade", "shopping"],
+    "description": "Famous retro gaming store with classic Nintendo, Sega and PlayStation games.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6983,
+        "lng": 139.7715
+    }
+},
+{
+    "name": "Akihabara Gachapon Hall",
+    "district": "Akihabara",
+    "category": "anime",
+    "tags": ["gachapon", "capsule toys", "anime", "shopping"],
+    "description": "Hundreds of capsule toy machines offering anime and game collectibles.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6980,
+        "lng": 139.7718
+    }
+},
+{
+    "name": "Kotobukiya Akihabara",
+    "district": "Akihabara",
+    "category": "anime",
+    "tags": ["figures", "anime", "gaming", "shopping"],
+    "description": "Official store selling premium anime and video game figures from major franchises.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6985,
+        "lng": 139.7732
+    }
+},
+{
+    "name": "GiGO Akihabara 1",
+    "district": "Akihabara",
+    "category": "gaming",
+    "tags": ["arcade", "gaming", "anime", "crane games"],
+    "description": "Multi-floor arcade with rhythm games, UFO catchers and classic Japanese arcade machines.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6989,
+        "lng": 139.7725
+    }
+},
+{
+    "name": "HEY Taito",
+    "district": "Akihabara",
+    "category": "gaming",
+    "tags": ["arcade", "retro", "shooting games", "gaming"],
+    "description": "Legendary arcade popular among fans of classic fighting and shooting games.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6990,
+        "lng": 139.7713
+    }
+},
+{
+    "name": "Surugaya Akihabara",
+    "district": "Akihabara",
+    "category": "anime",
+    "tags": ["manga", "figures", "second hand", "shopping"],
+    "description": "Popular second-hand store for manga, anime figures, games and collectibles.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6982,
+        "lng": 139.7720
+    }
+},
+{
+    "name": "Melonbooks Akihabara",
+    "district": "Akihabara",
+    "category": "anime",
+    "tags": ["manga", "doujinshi", "anime", "shopping"],
+    "description": "Large bookstore specializing in manga, doujinshi and light novels.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6987,
+        "lng": 139.7721
+    }
+},
+{
+    "name": "Yodobashi Camera Akihabara",
+    "district": "Akihabara",
+    "category": "electronics",
+    "tags": ["electronics", "shopping", "cameras", "gadgets", "gaming", "anime goods", "home appliances", "tech", "otaku supplies", "massive store"],
+    "description": "Huge electronics complex with cameras, computers, gaming gear and anime merchandise.",
+    "duration": 2.5,
+    "coordinates": {
+        "lat": 35.6986,
+        "lng": 139.7742
+    }
+},
+{
+    "name": "Akiba Cultures Zone",
+    "district": "Akihabara",
+    "category": "anime",
+    "tags": ["anime", "manga", "idol goods", "figures", "doujinshi", "otaku culture", "shopping", "collectibles", "events", "fan culture"],
+    "description": "Multi-floor building dedicated to otaku culture, idols, manga and collectibles.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6992,
+        "lng": 139.7728
+    }
+},
+{
+    "name": "AKB48 Theater (Don Quijote Akihabara)",
+    "district": "Akihabara",
+    "category": "culture",
+    "tags": ["idols", "live shows", "music", "j-pop", "fan events", "entertainment", "theater", "otaku culture", "merchandise", "meetings"],
+    "description": "Home theater of the famous AKB48 idol group, located inside Don Quijote.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.7001,
+        "lng": 139.7735
+    }
+},
+{
+    "name": "TRADER Akihabara Main Store",
+    "district": "Akihabara",
+    "category": "anime",
+    "tags": ["anime", "games", "retro", "second hand", "figures", "collectibles", "dvd", "manga", "otaku", "shopping"],
+    "description": "Large second-hand store specializing in anime, games and collectibles.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6979,
+        "lng": 139.7722
+    }
+},
+{
+    "name": "Akihabara UDX Building",
+    "district": "Akihabara",
+    "category": "business",
+    "tags": ["events", "restaurants", "business", "conference", "tech", "exhibitions", "anime events", "modern architecture", "shopping", "food court"],
+    "description": "Modern complex hosting events, restaurants and tech exhibitions.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.7000,
+        "lng": 139.7740
+    }
+},
+{
+    "name": "Lashinbang Akihabara",
+    "district": "Akihabara",
+    "category": "anime",
+    "tags": ["anime", "second hand", "figures", "doujinshi", "manga", "collectibles", "retro", "otaku goods", "shopping", "rare items"],
+    "description": "Second-hand anime shop with rare figures, doujinshi and collectibles.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6981,
+        "lng": 139.7726
+    }
+},
+{
+    "name": "Animate Cafe Akihabara",
+    "district": "Akihabara",
+    "category": "anime",
+    "tags": ["anime", "cafe", "collaboration", "food", "drinks", "merchandise", "events", "limited edition", "otaku culture", "themed experience"],
+    "description": "Themed café with anime collaborations and limited-time menus.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6976,
+        "lng": 139.7738
+    }
+},
+{
+    "name": "Book Off Akihabara",
+    "district": "Akihabara",
+    "category": "shopping",
+    "tags": ["second hand", "books", "manga", "games", "cds", "collectibles", "budget shopping", "retro", "anime", "electronics"],
+    "description": "Popular chain store for second-hand books, manga and games.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6984,
+        "lng": 139.7719
+    }
+},
+{
+    "name": "Akihabara Radio Kaikan Roof Area",
+    "district": "Akihabara",
+    "category": "anime",
+    "tags": ["anime", "figures", "viewpoint", "otaku culture", "shopping", "collectibles", "photography", "city view", "landmark", "retro vibe"],
+    "description": "Iconic rooftop area offering views and access to hobby shops inside Radio Kaikan.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6986,
+        "lng": 139.7730
+    }
+},
+{
+    "name": "GiGO Akihabara 3",
+    "district": "Akihabara",
+    "category": "gaming",
+    "tags": ["arcade", "gaming", "crane games", "rhythm games", "anime", "competitive gaming", "entertainment", "ufo catchers", "otaku culture", "night activity"],
+    "description": "Popular arcade with crane games, rhythm games and classic machines.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6991,
+        "lng": 139.7720
+    }
+},
+{
+    "name": "Shinjuku Gyoen National Garden",
+    "district": "Shinjuku",
+    "category": "nature",
+    "tags": ["park", "garden", "nature", "sakura", "autumn leaves", "relax", "photography", "traditional garden", "green space", "escape city"],
+    "description": "One of Tokyo's most beautiful and spacious gardens, perfect for cherry blossoms and seasonal scenery.",
+    "duration": 2.5,
+    "coordinates": {
+        "lat": 35.6852,
+        "lng": 139.7100
+    }
+},
+{
+    "name": "Tokyo Metropolitan Government Building",
+    "district": "Shinjuku",
+    "category": "viewpoint",
+    "tags": ["free observatory", "viewpoint", "skyline", "tokyo tower view", "mt fuji", "architecture", "government building", "photography", "night view", "high rise"],
+    "description": "Free observation decks offering panoramic views of Tokyo and Mount Fuji on clear days.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6895,
+        "lng": 139.6917
+    }
+},
+{
+    "name": "Shinjuku Station",
+    "district": "Shinjuku",
+    "category": "transport",
+    "tags": ["train hub", "subway", "busy", "largest station", "navigation challenge", "shopping", "underground mall", "commute", "jr lines", "tokyo metro"],
+    "description": "The busiest train station in the world and a major transport hub in Tokyo.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6909,
+        "lng": 139.7004
+    }
+},
+{
+    "name": "Kabukicho",
+    "district": "Shinjuku",
+    "category": "nightlife",
+    "tags": ["red light district", "nightlife", "bars", "restaurants", "entertainment", "neon lights", "toho cinema", "godzilla", "touristy", "night walk"],
+    "description": "Tokyo’s most famous entertainment district, full of neon lights, bars and nightlife.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6940,
+        "lng": 139.7016
+    }
+},
+{
+    "name": "Omoide Yokocho",
+    "district": "Shinjuku",
+    "category": "food",
+    "tags": ["street food", "yakitori", "alley", "traditional", "bars", "night food", "small restaurants", "retro", "atmosphere", "local experience"],
+    "description": "Narrow alley filled with tiny yakitori stalls and traditional izakayas.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6938,
+        "lng": 139.7034
+    }
+},
+{
+    "name": "Golden Gai",
+    "district": "Shinjuku",
+    "category": "nightlife",
+    "tags": ["bars", "tiny bars", "nightlife", "retro", "artistic", "local experience", "music", "bohemian", "tourist spot", "unique atmosphere"],
+    "description": "Small network of narrow alleys filled with tiny themed bars.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6941,
+        "lng": 139.7042
+    }
+},
+{
+    "name": "Isetan Shinjuku",
+    "district": "Shinjuku",
+    "category": "shopping",
+    "tags": ["department store", "fashion", "luxury", "food hall", "cosmetics", "designer brands", "shopping", "high end", "japanese brands", "gifts"],
+    "description": "One of Tokyo’s most prestigious department stores with luxury fashion and gourmet food.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6915,
+        "lng": 139.7041
+    }
+},
+{
+    "name": "Shinjuku Ni-chome",
+    "district": "Shinjuku",
+    "category": "nightlife",
+    "tags": ["bars", "lgbtq+", "nightlife", "inclusive", "clubs", "social", "community", "music", "safe space", "tokyo nightlife"],
+    "description": "Tokyo’s main LGBTQ+ nightlife district with bars, clubs and friendly atmosphere.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6919,
+        "lng": 139.7052
+    }
+},
+{
+    "name": "Robot Restaurant (former location area)",
+    "district": "Shinjuku",
+    "category": "entertainment",
+    "tags": ["robots", "shows", "neon", "tourist attraction", "performance", "lights", "music", "over the top", "entertainment", "tokyo pop culture"],
+    "description": "Formerly famous robot show venue, still a symbolic area of flashy Tokyo entertainment.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6952,
+        "lng": 139.7025
+    }
+},
+{
+    "name": "Shinjuku Central Park",
+    "district": "Shinjuku",
+    "category": "nature",
+    "tags": ["park", "relax", "green space", "skyscrapers", "quiet", "walking", "break spot", "city contrast", "photography", "urban nature"],
+    "description": "Peaceful park surrounded by skyscrapers in the Shinjuku business area.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6904,
+        "lng": 139.6907
+    }
+},
+{
+    "name": "NEWoMan Shinjuku",
+    "district": "Shinjuku",
+    "category": "shopping",
+    "tags": ["shopping", "fashion", "lifestyle", "restaurants", "modern mall", "cafes", "station building", "designer brands", "food court", "trendy"],
+    "description": "Modern shopping complex directly connected to Shinjuku Station, focused on fashion and dining.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6889,
+        "lng": 139.7006
+    }
+},
+{
+    "name": "Shinjuku LUMINE 2",
+    "district": "Shinjuku",
+    "category": "shopping",
+    "tags": ["fashion", "shopping", "youth brands", "cafes", "trendy", "accessories", "beauty", "station mall", "lifestyle", "casual shopping"],
+    "description": "Popular fashion mall targeting young shoppers with trendy brands and cafes.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6893,
+        "lng": 139.7007
+    }
+},
+{
+    "name": "Hanazono Shrine",
+    "district": "Shinjuku",
+    "category": "culture",
+    "tags": ["shinto shrine", "tradition", "history", "culture", "spiritual", "festival", "torii gate", "quiet spot", "city shrine", "photography"],
+    "description": "Historic Shinto shrine hidden among skyscrapers, known for festivals and traditional atmosphere.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6937,
+        "lng": 139.7045
+    }
+},
+{
+    "name": "Shinjuku PIT INN",
+    "district": "Shinjuku",
+    "category": "music",
+    "tags": ["jazz", "live music", "concerts", "nightlife", "music bar", "performance", "culture", "intimate venue", "local scene", "artistic"],
+    "description": "Legendary jazz club hosting live performances by top Japanese and international musicians.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6912,
+        "lng": 139.7081
+    }
+},
+{
+    "name": "Shinjuku Batting Center",
+    "district": "Shinjuku",
+    "category": "entertainment",
+    "tags": ["sports", "batting cages", "fun", "arcade style", "local experience", "activity", "night activity", "baseball", "casual", "unique"],
+    "description": "Retro-style batting center popular for casual fun and stress relief.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6961,
+        "lng": 139.7029
+    }
+},
+{
+    "name": "Tokyo Opera City",
+    "district": "Shinjuku",
+    "category": "culture",
+    "tags": ["concert hall", "classical music", "art", "museum", "architecture", "culture", "performances", "elegant", "modern design", "events"],
+    "description": "Cultural complex hosting concerts, art exhibitions and performances.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6839,
+        "lng": 139.6848
+    }
+},
+{
+    "name": "Shinjuku Golden Street Food Spots",
+    "district": "Shinjuku",
+    "category": "food",
+    "tags": ["street food", "local food", "ramen", "izakaya", "hidden gems", "night food", "small bars", "authentic", "budget friendly", "atmosphere"],
+    "description": "Cluster of tiny eateries and bars offering authentic local food experiences.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6939,
+        "lng": 139.7039
+    }
+},
+{
+    "name": "Shinjuku Sumitomo Building Triangle Plaza",
+    "district": "Shinjuku",
+    "category": "urban",
+    "tags": ["skyscrapers", "architecture", "plaza", "rest area", "business district", "modern city", "photography", "urban design", "free space", "walking spot"],
+    "description": "Open plaza surrounded by skyscrapers, often used as a resting and meeting point.",
+    "duration": 0.5,
+    "coordinates": {
+        "lat": 35.6901,
+        "lng": 139.6922
+    }
+},
+{
+    "name": "Shinjuku Marui Main Building",
+    "district": "Shinjuku",
+    "category": "shopping",
+    "tags": ["shopping", "fashion", "anime collabs", "pop culture", "stores", "cafes", "trendy", "youth fashion", "events", "character goods"],
+    "description": "Shopping complex known for fashion stores and anime collaboration events.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6918,
+        "lng": 139.7049
+    }
+},
+{
+    "name": "Shinjuku Southern Terrace",
+    "district": "Shinjuku",
+    "category": "urban",
+    "tags": ["walkway", "restaurants", "cafes", "night lights", "romantic", "urban design", "station area", "relax", "photography", "shopping access"],
+    "description": "Stylish pedestrian area with cafes and illuminated walkways near the station.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6890,
+        "lng": 139.7001
+    }
+},
+{
+    "name": "Shibuya Crossing",
+    "district": "Shibuya",
+    "category": "landmark",
+    "tags": ["crossing", "crowds", "urban chaos", "iconic", "photography", "night lights", "tokyo symbol", "busy intersection", "tourist spot", "city life", "videos"],
+    "description": "World-famous scramble crossing where hundreds of people cross at once from all directions.",
+    "duration": 0.5,
+    "coordinates": {
+        "lat": 35.6595,
+        "lng": 139.7005
+    }
+},
+{
+    "name": "Shibuya Sky",
+    "district": "Shibuya",
+    "category": "viewpoint",
+    "tags": ["sky deck", "rooftop", "viewpoint", "sunset", "tokyo skyline", "mt fuji view", "photography", "modern architecture", "romantic", "high altitude", "observation deck"],
+    "description": "Open-air observation deck offering one of the best panoramic views of Tokyo.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6580,
+        "lng": 139.7016
+    }
+},
+{
+    "name": "Shibuya 109",
+    "district": "Shibuya",
+    "category": "shopping",
+    "tags": ["fashion", "teen culture", "shopping", "gyaru style", "trendy", "brands", "mall", "youth fashion", "cosmetics", "tokyo style", "pop culture"],
+    "description": "Iconic fashion building known for youth trends and Japanese street fashion.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6592,
+        "lng": 139.7004
+    }
+},
+{
+    "name": "Hachiko Statue",
+    "district": "Shibuya",
+    "category": "landmark",
+    "tags": ["dog statue", "meeting point", "history", "iconic", "photography", "loyalty story", "tourist spot", "symbol", "easy meeting", "shibuya station"],
+    "description": "Famous statue of the loyal dog Hachiko, popular meeting point in Shibuya.",
+    "duration": 0.5,
+    "coordinates": {
+        "lat": 35.6591,
+        "lng": 139.7006
+    }
+},
+{
+    "name": "Center Gai",
+    "district": "Shibuya",
+    "category": "nightlife",
+    "tags": ["street", "shopping", "bars", "nightlife", "teen culture", "crowds", "fashion", "music", "restaurants", "tourist area", "energy"],
+    "description": "Lively pedestrian street full of shops, restaurants and nightlife.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6615,
+        "lng": 139.7007
+    }
+},
+{
+    "name": "Nonbei Yokocho",
+    "district": "Shibuya",
+    "category": "food",
+    "tags": ["alley", "izakaya", "retro", "traditional", "night food", "drinks", "small bars", "local experience", "atmosphere", "hidden gem"],
+    "description": "Small nostalgic alley filled with tiny traditional izakayas.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6606,
+        "lng": 139.7001
+    }
+},
+{
+    "name": "MIYASHITA PARK",
+    "district": "Shibuya",
+    "category": "shopping",
+    "tags": ["rooftop park", "shopping", "skatepark", "restaurants", "modern", "urban space", "fashion", "cafes", "youth culture", "relax spot"],
+    "description": "Modern complex combining shopping, food, a park and a rooftop skate area.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6630,
+        "lng": 139.6985
+    }
+},
+{
+    "name": "Yoyogi Park",
+    "district": "Shibuya",
+    "category": "nature",
+    "tags": ["park", "picnic", "nature", "street performers", "relax", "jogging", "weekend crowds", "green space", "events", "freedom"],
+    "description": "Large park popular for picnics, sports and weekend gatherings.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6729,
+        "lng": 139.6949
+    }
+},
+{
+    "name": "Cat Street",
+    "district": "Shibuya",
+    "category": "shopping",
+    "tags": ["fashion street", "cafes", "boutiques", "harajuku link", "trendy", "walk", "street style", "shopping", "relaxed vibe", "photography"],
+    "description": "Stylish street connecting Shibuya and Harajuku filled with boutiques and cafes.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6647,
+        "lng": 139.7051
+    }
+},
+{
+    "name": "Shibuya Scramble Square",
+    "district": "Shibuya",
+    "category": "shopping",
+    "tags": ["skyscraper", "shopping", "restaurants", "viewpoint", "modern", "office tower", "food court", "luxury", "skyline", "urban center"],
+    "description": "Modern skyscraper complex with shops, restaurants and access to Shibuya Sky.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6573,
+        "lng": 139.7010
+    }
+},
+{
+    "name": "Roppongi Hills",
+    "district": "Roppongi",
+    "category": "complex",
+    "tags": ["skyscraper", "shopping", "restaurants", "business", "luxury", "urban center", "cinema", "art", "events", "nightlife", "modern architecture"],
+    "description": "Large urban complex with shops, restaurants, offices and cultural spaces.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6605,
+        "lng": 139.7292
+    }
+},
+{
+    "name": "Tokyo City View (Roppongi Hills Observatory)",
+    "district": "Roppongi",
+    "category": "viewpoint",
+    "tags": ["viewpoint", "skyline", "night view", "tokyo tower view", "photography", "romantic", "observation deck", "high rise", "city lights", "tourist spot", "panorama"],
+    "description": "Indoor observation deck with panoramic views of Tokyo.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6605,
+        "lng": 139.7293
+    }
+},
+{
+    "name": "Tokyo Midtown",
+    "district": "Roppongi",
+    "category": "complex",
+    "tags": ["shopping", "luxury", "restaurants", "art", "design", "park", "business", "modern architecture", "events", "cafes", "high end"],
+    "description": "Upscale mixed-use complex with shops, restaurants, offices and museums.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6653,
+        "lng": 139.7300
+    }
+},
+{
+    "name": "National Art Center Tokyo",
+    "district": "Roppongi",
+    "category": "art",
+    "tags": ["museum", "architecture", "exhibitions", "contemporary art", "culture", "glass building", "photography", "design", "temporary exhibits", "creative space", "education"],
+    "description": "Unique museum with rotating exhibitions and striking architecture.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6651,
+        "lng": 139.7264
+    }
+},
+{
+    "name": "21_21 Design Sight",
+    "district": "Roppongi",
+    "category": "art",
+    "tags": ["design museum", "architecture", "minimalism", "exhibitions", "creative", "fashion design", "art space", "tadao ando", "innovation", "culture", "modern"],
+    "description": "Design-focused museum created by Issey Miyake and Tadao Ando.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6656,
+        "lng": 139.7308
+    }
+},
+{
+    "name": "Roppongi Crossing",
+    "district": "Roppongi",
+    "category": "landmark",
+    "tags": ["intersection", "nightlife", "neon lights", "bars", "crowds", "urban chaos", "photography", "city life", "tourist area", "entertainment", "energy"],
+    "description": "Central intersection surrounded by nightlife, bars and entertainment venues.",
+    "duration": 0.5,
+    "coordinates": {
+        "lat": 35.6627,
+        "lng": 139.7316
+    }
+},
+{
+    "name": "V2 Tokyo",
+    "district": "Roppongi",
+    "category": "nightlife",
+    "tags": ["club", "nightlife", "dj", "dance", "luxury", "music", "party", "international crowd", "vip", "neon", "late night"],
+    "description": "High-end nightclub known for international DJs and nightlife events.",
+    "duration": 3,
+    "coordinates": {
+        "lat": 35.6620,
+        "lng": 139.7318
+    }
+},
+{
+    "name": "Hard Rock Cafe Tokyo (Roppongi)",
+    "district": "Roppongi",
+    "category": "food",
+    "tags": ["restaurant", "american food", "music", "rock", "tourist spot", "burgers", "bar", "nightlife", "casual dining", "memorabilia", "international"],
+    "description": "Famous themed restaurant and bar with rock music atmosphere.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6631,
+        "lng": 139.7312
+    }
+},
+{
+    "name": "Roppongi Sakurazaka",
+    "district": "Roppongi",
+    "category": "urban",
+    "tags": ["street", "cherry blossoms", "night walk", "photography", "romantic", "seasonal", "city lights", "walkway", "quiet escape", "urban nature"],
+    "description": "Beautiful slope known for cherry blossoms and night-time walks.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6618,
+        "lng": 139.7287
+    }
+},
+{
+    "name": "Roppongi Keyakizaka Street",
+    "district": "Roppongi",
+    "category": "urban",
+    "tags": ["illuminations", "luxury shops", "walkway", "romantic", "night lights", "photography", "fashion", "holiday lights", "trees", "city aesthetic"],
+    "description": "Elegant street famous for seasonal illuminations and luxury shopping.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6609,
+        "lng": 139.7279
+    }
+},
+{
+    "name": "Suntory Museum of Art",
+    "district": "Roppongi",
+    "category": "art",
+    "tags": ["museum", "traditional art", "japanese culture", "ceramics", "exhibitions", "minimalist design", "tea culture", "elegant", "collections", "history", "indoor"],
+    "description": "Museum focused on traditional Japanese art and design objects.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6652,
+        "lng": 139.7302
+    }
+},
+{
+    "name": "Roppongi Hills Mori Tower Sky Deck",
+    "district": "Roppongi",
+    "category": "viewpoint",
+    "tags": ["rooftop", "open air", "sky deck", "tokyo tower view", "photography", "sunset", "romantic", "windy", "panorama", "city skyline", "night view"],
+    "description": "Outdoor rooftop observation area with stunning 360° views of Tokyo.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6606,
+        "lng": 139.7294
+    }
+},
+{
+    "name": "Roppongi Hills Arena",
+    "district": "Roppongi",
+    "category": "events",
+    "tags": ["events", "concerts", "outdoor space", "festivals", "music", "seasonal events", "public space", "crowds", "performance", "urban square", "entertainment"],
+    "description": "Outdoor event space hosting concerts and seasonal festivals.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6603,
+        "lng": 139.7301
+    }
+},
+{
+    "name": "Roppongi Hills West Walk",
+    "district": "Roppongi",
+    "category": "urban",
+    "tags": ["shopping street", "cafes", "restaurants", "walkway", "modern design", "luxury", "relax", "evening walk", "architecture", "clean aesthetic", "urban"],
+    "description": "Stylish pedestrian walkway with shops and restaurants.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6607,
+        "lng": 139.7289
+    }
+},
+{
+    "name": "Roppongi Hills Christmas Illumination Area",
+    "district": "Roppongi",
+    "category": "seasonal",
+    "tags": ["illumination", "christmas lights", "romantic", "winter", "photography", "seasonal event", "trees", "lights", "tourist spot", "festive", "night walk"],
+    "description": "Famous winter illumination area with beautiful light displays.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6608,
+        "lng": 139.7296
+    }
+},
+{
+    "name": "Azabudai Hills (near Roppongi)",
+    "district": "Roppongi",
+    "category": "complex",
+    "tags": ["modern architecture", "luxury", "shopping", "green spaces", "towers", "urban development", "cafes", "restaurants", "innovation", "city planning", "high end"],
+    "description": "Ultra-modern urban development with parks, shops and offices.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6625,
+        "lng": 139.7400
+    }
+},
+{
+    "name": "Roppongi Museum",
+    "district": "Roppongi",
+    "category": "art",
+    "tags": ["contemporary art", "exhibitions", "modern culture", "installations", "creative space", "urban art", "temporary exhibits", "photography", "indoor", "culture", "design"],
+    "description": "Small contemporary art museum with rotating exhibitions.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6621,
+        "lng": 139.7305
+    }
+},
+{
+    "name": "Roppongi Hills Club",
+    "district": "Roppongi",
+    "category": "luxury",
+    "tags": ["members club", "luxury", "fine dining", "events", "exclusive", "skyline view", "business", "networking", "high end", "private", "elegant"],
+    "description": "Exclusive members club located at the top of Roppongi Hills.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6604,
+        "lng": 139.7291
+    }
+},
+{
+    "name": "Ex Theater Roppongi",
+    "district": "Roppongi",
+    "category": "entertainment",
+    "tags": ["live music", "concerts", "theater", "performance", "dj events", "modern venue", "nightlife", "entertainment", "shows", "culture", "indoor"],
+    "description": "Modern live entertainment venue hosting concerts and performances.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6630,
+        "lng": 139.7310
+    }
+},
+{
+    "name": "Roppongi Hills Convenience Alley",
+    "district": "Roppongi",
+    "category": "food",
+    "tags": ["restaurants", "casual dining", "izakaya", "cafes", "night food", "local mix", "international cuisine", "bars", "quick meals", "hidden spots", "urban dining"],
+    "description": "Small cluster of casual eateries and hidden food spots inside Roppongi Hills.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6609,
+        "lng": 139.7298
+    }
+},
+{
+    "name": "teamLab Planets TOKYO (Toyosu)",
+    "district": "Toyosu",
+    "category": "experience",
+    "tags": ["immersive art", "digital art", "interactive", "water rooms", "lights", "photography", "sensory experience", "teamlab", "modern art", "viral", "museum experience"],
+    "description": "Immersive digital art museum where visitors walk through water, light and interactive installations.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6495,
+        "lng": 139.7897
+    }
+},
+{
+    "name": "teamLab Borderless (Azabudai Hills)",
+    "district": "Azabudai",
+    "category": "experience",
+    "tags": ["digital art", "immersive", "interactive", "labyrinth", "lights", "projection", "art experience", "teamlab", "modern museum", "photography", "sensory"],
+    "description": "Reopened immersive digital art museum with shifting rooms and interactive light spaces.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6650,
+        "lng": 139.7430
+    }
+},
+{
+    "name": "Fujiko F. Fujio Museum (Doraemon Museum)",
+    "district": "Kawasaki",
+    "category": "museum",
+    "tags": ["doraemon", "anime", "manga", "museum", "nostalgia", "family", "exhibitions", "original drawings", "cafeteria", "characters", "japanese pop culture"],
+    "description": "Museum dedicated to the creator of Doraemon with original artworks and themed exhibits.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6037,
+        "lng": 139.5590
+    }
+},
+{
+    "name": "Ghibli Museum Mitaka",
+    "district": "Mitaka",
+    "category": "museum",
+    "tags": ["studio ghibli", "anime", "miyazaki", "animation", "fantasy", "museum", "family", "exclusive", "short films", "art", "nostalgia"],
+    "description": "Whimsical museum dedicated to Studio Ghibli’s animation world.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6962,
+        "lng": 139.5704
+    }
+},
+{
+    "name": "Gotokuji Temple",
+    "district": "Setagaya",
+    "category": "culture",
+    "tags": ["maneki neko", "temple", "cats", "luck", "traditional", "hidden gem", "photography", "spiritual", "quiet", "tokyo outskirts", "culture"],
+    "description": "Peaceful temple famous for thousands of lucky cat statues.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6403,
+        "lng": 139.6478
+    }
+},
+{
+    "name": "Nakano Broadway",
+    "district": "Nakano",
+    "category": "anime",
+    "tags": ["anime", "manga", "otaku", "retro", "collectibles", "figures", "second hand", "shopping", "nostalgia", "hidden gem", "nerd culture"],
+    "description": "Multi-floor complex packed with anime, manga and rare collectible stores.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.7081,
+        "lng": 139.6655
+    }
+},
+{
+    "name": "Odaiba TeamLab Borderless (former area vibe)",
+    "district": "Odaiba",
+    "category": "experience",
+    "tags": ["digital art", "immersive", "waterfront", "lights", "interactive", "museum", "modern art", "family friendly", "photography", "tourist area", "innovation"],
+    "description": "Area known for former teamLab Borderless and futuristic attractions.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6275,
+        "lng": 139.7756
+    }
+},
+{
+    "name": "Sunshine City (Ikebukuro)",
+    "district": "Ikebukuro",
+    "category": "complex",
+    "tags": ["shopping", "aquarium", "observation deck", "anime", "pokemon center", "mall", "entertainment", "family", "food court", "skyscraper", "indoor"],
+    "description": "Huge entertainment complex with shops, aquarium and observation deck.",
+    "duration": 2.5,
+    "coordinates": {
+        "lat": 35.7295,
+        "lng": 139.7197
+    }
+},
+{
+    "name": "Tokyo Trick Art Museum (Odaiba)",
+    "district": "Odaiba",
+    "category": "experience",
+    "tags": ["illusion", "fun", "interactive", "photography", "optical illusions", "family", "indoor activity", "entertainment", "creative", "tourist attraction", "games"],
+    "description": "Interactive museum with optical illusion art designed for photos and fun.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6279,
+        "lng": 139.7763
+    }
+},
+{
+    "name": "Edo-Tokyo Open Air Architectural Museum",
+    "district": "Koganei",
+    "category": "museum",
+    "tags": ["history", "architecture", "edo period", "traditional houses", "open air", "culture", "walking", "photography", "heritage", "outdoors", "education"],
+    "description": "Open-air museum showcasing historic Japanese buildings from different eras.",
+    "duration": 2.5,
+    "coordinates": {
+        "lat": 35.7101,
+        "lng": 139.5290
+    }
+},{
+    "name": "Shitamachi Museum (Ueno)",
+    "district": "Ueno",
+    "category": "museum",
+    "tags": ["edo history", "traditional life", "museum", "culture", "old tokyo", "education", "reconstruction", "photography", "heritage", "local life", "indoor"],
+    "description": "Small museum showing everyday life in old Tokyo (Shitamachi area).",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.7102,
+        "lng": 139.7731
+    }
+},
+{
+    "name": "Yanaka Ginza",
+    "district": "Yanaka",
+    "category": "street",
+    "tags": ["old town", "shopping street", "street food", "retro", "local vibe", "hidden gem", "walking", "traditional shops", "photography", "nostalgia", "budget"],
+    "description": "Traditional shopping street preserving the atmosphere of old Tokyo.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.7279,
+        "lng": 139.7694
+    }
+},
+{
+    "name": "Nezu Shrine",
+    "district": "Bunkyo",
+    "category": "culture",
+    "tags": ["shrine", "torii gates", "azalea garden", "history", "spiritual", "quiet", "photography", "hidden gem", "traditional", "nature", "culture"],
+    "description": "Beautiful shrine known for its tunnels of red torii gates and seasonal flowers.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.7206,
+        "lng": 139.7606
+    }
+},
+{
+    "name": "Kagurazaka Alleyways",
+    "district": "Kagurazaka",
+    "category": "street",
+    "tags": ["old tokyo", "geisha history", "cafes", "restaurants", "alleys", "hidden gem", "romantic", "walking", "french influence", "night vibe", "culture"],
+    "description": "Atmospheric area mixing traditional alleys with French-inspired cafes.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.7013,
+        "lng": 139.7357
+    }
+},
+{
+    "name": "Kanda Myojin Shrine",
+    "district": "Akihabara",
+    "category": "culture",
+    "tags": ["shrine", "anime culture", "lucky charms", "technology blessing", "tradition", "otaku connection", "history", "photography", "festival", "spiritual", "hidden gem"],
+    "description": "Historic shrine popular among tech workers and anime fans.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.7022,
+        "lng": 139.7671
+    }
+},
+{
+    "name": "Shimokitazawa Vintage Streets",
+    "district": "Setagaya",
+    "category": "shopping",
+    "tags": ["vintage shops", "thrift", "cafes", "indie culture", "music", "youth culture", "fashion", "hidden gem", "alternative", "walking", "bohemian"],
+    "description": "Trendy indie neighborhood full of vintage shops and cafes.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6610,
+        "lng": 139.6677
+    }
+},
+{
+    "name": "Hamarikyu Gardens",
+    "district": "Chuo",
+    "category": "nature",
+    "tags": ["garden", "traditional", "teahouse", "nature", "ponds", "city contrast", "relax", "photography", "history", "quiet", "green space"],
+    "description": "Historic garden with seawater ponds and a traditional teahouse.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6596,
+        "lng": 139.7635
+    }
+},
+{
+    "name": "Monzen-Nakacho Old Town",
+    "district": "Koto",
+    "category": "street",
+    "tags": ["old tokyo", "temples", "street food", "traditional vibe", "hidden gem", "walking", "local restaurants", "history", "quiet area", "culture", "relaxed"],
+    "description": "Historic district with temples and traditional food streets.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6715,
+        "lng": 139.7966
+    }
+},
+{
+    "name": "Todoroki Valley",
+    "district": "Setagaya",
+    "category": "nature",
+    "tags": ["valley", "nature walk", "river", "forest", "hidden gem", "hiking", "relax", "quiet", "green escape", "photography", "urban nature"],
+    "description": "Surprising natural valley hidden inside Tokyo with walking trails.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6046,
+        "lng": 139.6434
+    }
+},
+{
+    "name": "Ochanomizu Guitar Street",
+    "district": "Chiyoda",
+    "category": "music",
+    "tags": ["music shops", "guitars", "instruments", "culture", "shopping", "japanese music scene", "specialized stores", "hobby", "hidden gem", "walking street", "nerd culture"],
+    "description": "Street filled with guitar and music instrument shops.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6998,
+        "lng": 139.7651
+    }
+},{
+    "name": "Shinagawa Aquarium",
+    "district": "Shinagawa",
+    "category": "experience",
+    "tags": ["aquarium", "marine life", "family", "indoor", "relax", "dolphin show", "fish tanks", "hidden gem", "education", "date spot", "water"],
+    "description": "Local aquarium with dolphin shows and relaxing marine exhibits.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6109,
+        "lng": 139.7401
+    }
+},
+{
+    "name": "Gotanda TOC Building Flea Market",
+    "district": "Gotanda",
+    "category": "shopping",
+    "tags": ["flea market", "second hand", "budget", "clothes", "electronics", "local", "hidden gem", "bargains", "random finds", "shopping", "weekend"],
+    "description": "Occasional massive flea market inside TOC building with cheap goods.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6242,
+        "lng": 139.7240
+    }
+},
+{
+    "name": "Meguro River Walk",
+    "district": "Meguro",
+    "category": "nature",
+    "tags": ["cherry blossoms", "river", "walking", "romantic", "night lights", "photography", "seasonal", "sakura", "urban nature", "relax", "cafes"],
+    "description": "Famous riverside walk especially beautiful during cherry blossom season.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6412,
+        "lng": 139.6982
+    }
+},
+{
+    "name": "Meguro Parasitological Museum",
+    "district": "Meguro",
+    "category": "museum",
+    "tags": ["weird museum", "science", "parasites", "educational", "unique", "free entry", "hidden gem", "quirky", "biology", "indoor", "niche"],
+    "description": "Unique museum dedicated entirely to parasites and biology research.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6338,
+        "lng": 139.7130
+    }
+},
+{
+    "name": "Koenji Vintage Street",
+    "district": "Koenji",
+    "category": "shopping",
+    "tags": ["vintage", "thrift shops", "punk culture", "music", "indie", "youth culture", "alternative", "cafes", "hidden gem", "fashion", "bohemian"],
+    "description": "Alternative neighborhood known for vintage shops and punk culture.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.7054,
+        "lng": 139.6493
+    }
+},
+{
+    "name": "Suginami Animation Museum",
+    "district": "Suginami",
+    "category": "anime",
+    "tags": ["anime", "animation history", "education", "exhibitions", "free entry", "industry", "behind the scenes", "manga culture", "hidden gem", "interactive", "indoor"],
+    "description": "Small museum explaining the history and process of Japanese animation.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6991,
+        "lng": 139.6367
+    }
+},
+{
+    "name": "Tokyo Daijingu Shrine",
+    "district": "Iidabashi",
+    "category": "culture",
+    "tags": ["shrine", "love fortune", "wedding shrine", "romantic", "spiritual", "hidden gem", "tradition", "peaceful", "photography", "culture", "luck"],
+    "description": "Famous shrine for love and matchmaking blessings.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.7009,
+        "lng": 139.7446
+    }
+},
+{
+    "name": "Futako-Tamagawa Rise",
+    "district": "Setagaya",
+    "category": "complex",
+    "tags": ["shopping", "river view", "cafes", "modern", "relaxed", "family friendly", "cinema", "green spaces", "suburban tokyo", "lifestyle", "walk"],
+    "description": "Modern riverside shopping and lifestyle complex outside central Tokyo.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6114,
+        "lng": 139.6267
+    }
+},
+{
+    "name": "Eifukucho Shotengai",
+    "district": "Suginami",
+    "category": "street",
+    "tags": ["local street", "shopping", "food", "residential vibe", "hidden gem", "quiet", "traditional shops", "budget", "walking", "everyday tokyo", "relax"],
+    "description": "Quiet local shopping street with an authentic neighborhood feel.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6831,
+        "lng": 139.6349
+    }
+},
+{
+    "name": "Shirokane Takanawa Alley Cafes",
+    "district": "Minato",
+    "category": "food",
+    "tags": ["cafes", "quiet luxury", "hidden gem", "coffee", "residential", "romantic", "walk", "upscale", "relax", "local spots", "minimal aesthetic"],
+    "description": "Quiet upscale neighborhood with hidden cafes and calm streets.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6422,
+        "lng": 139.7345
+    }
+},
+{
+    "name": "Ikebukuro Naka-Ikebukuro Park",
+    "district": "Ikebukuro",
+    "category": "nature",
+    "tags": ["park", "local", "relax", "street performances", "urban nature", "hidden spot", "families", "bench chill", "city break", "small park", "free"],
+    "description": "Small local park often used by residents and occasional street performers.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.7292,
+        "lng": 139.7107
+    }
+},
+{
+    "name": "Kichijoji Harmonica Yokocho",
+    "district": "Kichijoji",
+    "category": "food",
+    "tags": ["alley", "izakaya", "street food", "nightlife", "retro", "hidden gem", "bars", "local vibe", "tiny shops", "photography", "atmosphere"],
+    "description": "Narrow alley filled with tiny bars and eateries with a nostalgic vibe.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.7038,
+        "lng": 139.5797
+    }
+},
+{
+    "name": "Inokashira Park",
+    "district": "Kichijoji",
+    "category": "nature",
+    "tags": ["park", "lake", "boats", "swan boats", "chill", "romantic", "nature", "studio ghibli vibe", "weekend", "picnic", "walking"],
+    "description": "Beautiful park with a lake, very popular for relaxing and boat rides.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.7008,
+        "lng": 139.5725
+    }
+},
+{
+    "name": "Shinbashi Yakitori Alley",
+    "district": "Shinbashi",
+    "category": "food",
+    "tags": ["izakaya", "salaryman culture", "nightlife", "yakitori", "street food", "local experience", "bars", "after work", "cheap eats", "authentic", "crowded"],
+    "description": "Famous area for after-work drinking and grilled skewers.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6663,
+        "lng": 139.7589
+    }
+},
+{
+    "name": "Tokyo Sewage Museum (Museum of Sewerage)",
+    "district": "Koto",
+    "category": "museum",
+    "tags": ["weird museum", "education", "free", "science", "engineering", "hidden gem", "indoor", "interactive", "unexpected", "family", "tokyo infrastructure"],
+    "description": "Educational museum explaining Tokyo’s sewage and water systems.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6578,
+        "lng": 139.8184
+    }
+},
+{
+    "name": "Otsuka Train Street",
+    "district": "Toshima",
+    "category": "street",
+    "tags": ["train", "street walking", "local vibe", "hidden gem", "photography", "urban", "railway", "small shops", "quiet", "everyday tokyo", "relax"],
+    "description": "Quiet street running alongside a train line with local shops.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.7311,
+        "lng": 139.7272
+    }
+},
+{
+    "name": "Tokyo Daiba Seaside Park",
+    "district": "Odaiba",
+    "category": "nature",
+    "tags": ["beach", "bay view", "sunset", "relax", "photography", "urban beach", "romantic", "walk", "statue of liberty view", "sea breeze", "chill"],
+    "description": "Small artificial beach area with great views of Tokyo Bay.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6296,
+        "lng": 139.7755
+    }
+},
+{
+    "name": "Jimbocho Book Town",
+    "district": "Chiyoda",
+    "category": "culture",
+    "tags": ["books", "antique shops", "literature", "cafes", "quiet streets", "hidden gem", "academic vibe", "shopping", "old books", "culture", "walking"],
+    "description": "Famous district for second-hand bookstores and literary culture.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6954,
+        "lng": 139.7616
+    }
+},
+{
+    "name": "Shibaura Canal Walk",
+    "district": "Minato",
+    "category": "nature",
+    "tags": ["canal", "walking path", "industrial view", "modern tokyo", "relax", "photography", "hidden gem", "water", "quiet", "sunset", "urban"],
+    "description": "Peaceful canal walk with views of modern buildings and bridges.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6437,
+        "lng": 139.7519
+    }
+},
+{
+    "name": "Nakameguro Side Streets",
+    "district": "Meguro",
+    "category": "food",
+    "tags": ["cafes", "boutiques", "chill vibe", "romantic", "hidden gem", "walking", "night lights", "river nearby", "trendy", "coffee culture", "relax"],
+    "description": "Stylish side streets around Nakameguro full of cafes and boutiques.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6430,
+        "lng": 139.6983
+    }
+},
+{
+    "name": "Arakawa Amusement Park",
+    "district": "Arakawa",
+    "category": "entertainment",
+    "tags": ["amusement park", "family", "cheap", "nostalgic", "retro rides", "river view", "hidden gem", "kids friendly", "local", "old school", "relax"],
+    "description": "Small old-fashioned amusement park with simple rides and a nostalgic vibe.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.7422,
+        "lng": 139.8031
+    }
+},
+{
+    "name": "Sunamachi Ginza Shopping Street",
+    "district": "Koto",
+    "category": "street",
+    "tags": ["local street", "food", "street snacks", "budget", "hidden gem", "shopping", "traditional", "friendly vibe", "walking", "everyday tokyo", "market"],
+    "description": "Authentic local shopping street with cheap food and everyday life atmosphere.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6681,
+        "lng": 139.8223
+    }
+},
+{
+    "name": "Yanaka Cemetery Walk",
+    "district": "Yanaka",
+    "category": "nature",
+    "tags": ["cemetery", "cherry blossoms", "quiet", "walking", "photography", "history", "hidden gem", "atmosphere", "old tokyo", "nature", "peaceful"],
+    "description": "Peaceful cemetery famous for sakura trees and historical atmosphere.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.7256,
+        "lng": 139.7690
+    }
+},
+{
+    "name": "Daikanyama T-Site",
+    "district": "Daikanyama",
+    "category": "shopping",
+    "tags": ["books", "cafes", "design", "lifestyle", "quiet luxury", "modern architecture", "shopping", "relax", "aesthetic", "hidden gem", "coffee"],
+    "description": "Stylish bookstore complex with cafes and a calm luxury atmosphere.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6483,
+        "lng": 139.7029
+    }
+},
+{
+    "name": "Aoyama Cemetery",
+    "district": "Minato",
+    "category": "nature",
+    "tags": ["cemetery", "cherry blossoms", "walking", "quiet", "photography", "hidden gem", "nature", "city contrast", "peaceful", "history", "urban nature"],
+    "description": "Large cemetery that becomes a beautiful sakura spot in spring.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6616,
+        "lng": 139.7212
+    }
+},
+{
+    "name": "Tokyo International Forum",
+    "district": "Chiyoda",
+    "category": "architecture",
+    "tags": ["glass architecture", "events", "design", "modern building", "photography", "concerts", "indoor", "business", "urban space", "art", "structure"],
+    "description": "Striking glass building used for exhibitions and concerts.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6769,
+        "lng": 139.7636
+    }
+},
+{
+    "name": "Ebisu Yokocho",
+    "district": "Ebisu",
+    "category": "food",
+    "tags": ["izakaya", "nightlife", "street food", "bars", "local vibe", "hidden gem", "crowded", "after work", "drinks", "fun", "social"],
+    "description": "Small alley packed with lively izakayas and bars.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6467,
+        "lng": 139.7102
+    }
+},
+{
+    "name": "Meguro Sky Garden",
+    "district": "Meguro",
+    "category": "nature",
+    "tags": ["rooftop park", "garden", "architecture", "hidden gem", "relax", "urban nature", "photography", "circular park", "quiet", "modern", "walk"],
+    "description": "Unique circular rooftop garden built on top of a highway junction.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6297,
+        "lng": 139.7128
+    }
+},
+{
+    "name": "Kiba Park",
+    "district": "Koto",
+    "category": "nature",
+    "tags": ["park", "bridge view", "riverside", "walking", "sports", "picnic", "hidden gem", "relax", "green space", "family", "open air"],
+    "description": "Large park with river views and wide open spaces for activities.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6669,
+        "lng": 139.8087
+    }
+},
+{
+    "name": "Yurakucho Gado-shita",
+    "district": "Chiyoda",
+    "category": "food",
+    "tags": ["izakaya", "railway arches", "nightlife", "bars", "salaryman culture", "street food", "hidden gem", "authentic", "crowded", "drinks", "local experience"],
+    "description": "Lively food area under the railway tracks full of izakayas.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6748,
+        "lng": 139.7623
+    }
+},
+{
+    "name": "Fuunji (Shinjuku)",
+    "district": "Shinjuku",
+    "category": "ramen",
+    "tags": ["ramen", "tsukemen", "noodles", "queue", "local favorite", "rich broth", "fish stock", "chicken broth", "popular", "lunch spot", "classic"],
+    "description": "Famous tsukemen ramen shop known for its rich, creamy dipping broth.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6889,
+        "lng": 139.7006
+    }
+},
+{
+    "name": "Ichiran Shibuya",
+    "district": "Shibuya",
+    "category": "ramen",
+    "tags": ["ramen", "tonkotsu", "solo booths", "custom order", "chain", "fast service", "no interaction", "tourist friendly", "late night", "comfort food", "famous"],
+    "description": "Iconic tonkotsu ramen chain with private booths and customizable bowls.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6617,
+        "lng": 139.7005
+    }
+},
+{
+    "name": "Sushi Iwa (Nishi-Shinjuku)",
+    "district": "Shinjuku",
+    "category": "sushi",
+    "tags": ["omakase", "sushi", "fine dining", "edomae", "chef experience", "intimate", "reservation", "premium", "fish", "traditional", "date spot"],
+    "description": "High-quality omakase sushi experience in a small counter setting.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6931,
+        "lng": 139.6915
+    }
+},
+{
+    "name": "Uobei Shibuya Dogenzaka",
+    "district": "Shibuya",
+    "category": "sushi",
+    "tags": ["conveyor sushi", "fast food", "cheap", "tech ordering", "fun experience", "casual", "salmon", "tuna", "budget", "family friendly", "modern"],
+    "description": "High-speed conveyor belt sushi restaurant with tech-based ordering.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6593,
+        "lng": 139.6986
+    }
+},
+{
+    "name": "Afuri Ebisu",
+    "district": "Ebisu",
+    "category": "ramen",
+    "tags": ["ramen", "yuzu", "light broth", "healthy", "modern ramen", "clean taste", "queue", "popular", "stylish", "chicken broth", "casual"],
+    "description": "Famous yuzu shio ramen with a refreshing citrus twist.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6462,
+        "lng": 139.7101
+    }
+},
+{
+    "name": "Omoide Yokocho Yakitori Alley",
+    "district": "Shinjuku",
+    "category": "izakaya",
+    "tags": ["yakitori", "alley", "night food", "local vibe", "smoky", "cheap eats", "bars", "retro", "salaryman culture", "crowded", "authentic"],
+    "description": "Tiny alley filled with traditional yakitori stalls and izakayas.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6939,
+        "lng": 139.7034
+    }
+},
+{
+    "name": "Golden Gai Bars",
+    "district": "Shinjuku",
+    "category": "izakaya",
+    "tags": ["tiny bars", "nightlife", "retro", "unique", "artistic", "bohemian", "drinks", "tourist friendly", "local interaction", "hidden gem", "atmosphere"],
+    "description": "Network of tiny themed bars in narrow alleys of Shinjuku.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6940,
+        "lng": 139.7043
+    }
+},
+{
+    "name": "Tsunahachi Tempura (Shinjuku)",
+    "district": "Shinjuku",
+    "category": "tempura",
+    "tags": ["tempura", "traditional", "light food", "seafood", "vegetables", "classic", "lunch set", "historic restaurant", "quiet", "elegant", "japanese cuisine"],
+    "description": "Classic tempura restaurant known for light, crispy fried dishes.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6898,
+        "lng": 139.6995
+    }
+},
+{
+    "name": "Kinkan Sushi Bar Izakaya (Shibuya)",
+    "district": "Shibuya",
+    "category": "izakaya",
+    "tags": ["izakaya", "sushi", "fusion", "modern", "nightlife", "drinks", "creative dishes", "social dining", "young crowd", "casual", "trendy"],
+    "description": "Modern izakaya combining sushi and bar-style dining.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6588,
+        "lng": 139.7012
+    }
+},
+{
+    "name": "Sushi Mitsuyoshi (Shinjuku)",
+    "district": "Shinjuku",
+    "category": "sushi",
+    "tags": ["omakase", "fine dining", "sushi", "hidden gem", "chef experience", "seasonal fish", "premium", "intimate", "reservation", "traditional", "special occasion"],
+    "description": "Refined omakase sushi restaurant focusing on seasonal ingredients.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6922,
+        "lng": 139.7010
+    }
+},
+{
+    "name": "Tsuta Ramen (Yoyogi-Uehara)",
+    "district": "Yoyogi-Uehara",
+    "category": "ramen",
+    "tags": ["ramen", "michelin star", "soy sauce", "truffle oil", "fine ramen", "queue", "reservation", "gourmet", "innovative", "noodles", "premium"],
+    "description": "First ramen shop in the world to receive a Michelin star, known for refined flavors.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6693,
+        "lng": 139.6833
+    }
+},
+{
+    "name": "Ippudo Ramen (Roppongi)",
+    "district": "Roppongi",
+    "category": "ramen",
+    "tags": ["tonkotsu", "ramen", "chain", "creamy broth", "popular", "international", "casual", "late night", "comfort food", "fast service", "consistent"],
+    "description": "Famous tonkotsu ramen chain known for rich pork broth and consistency.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6626,
+        "lng": 139.7312
+    }
+},
+{
+    "name": "Sushizanmai Tsukiji",
+    "district": "Tsukiji",
+    "category": "sushi",
+    "tags": ["sushi", "fresh fish", "tsukiji", "market", "casual", "24h", "seafood", "tourist friendly", "value", "salmon", "tuna"],
+    "description": "Popular sushi chain near Tsukiji offering fresh seafood at reasonable prices.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6641,
+        "lng": 139.7706
+    }
+},
+{
+    "name": "Kyubey Ginza",
+    "district": "Ginza",
+    "category": "sushi",
+    "tags": ["omakase", "luxury", "sushi", "fine dining", "gourmet", "reservation", "elegant", "traditional", "premium fish", "date spot", "high end"],
+    "description": "One of Tokyo’s most famous high-end sushi restaurants.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6715,
+        "lng": 139.7630
+    }
+},
+{
+    "name": "Nakiryu Ramen (Otsuka)",
+    "district": "Otsuka",
+    "category": "ramen",
+    "tags": ["ramen", "michelin", "tantanmen", "spicy", "noodles", "queue", "small shop", "hidden gem", "gourmet", "lunch spot", "authentic"],
+    "description": "Michelin-starred ramen shop famous for its spicy tantanmen.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.7312,
+        "lng": 139.7281
+    }
+},
+{
+    "name": "Genki Sushi Shibuya",
+    "district": "Shibuya",
+    "category": "sushi",
+    "tags": ["conveyor sushi", "fast food", "cheap", "tech ordering", "casual", "fun experience", "touch screen", "family friendly", "quick meal", "salmon", "tuna"],
+    "description": "Affordable conveyor belt sushi with fast digital ordering system.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6602,
+        "lng": 139.6998
+    }
+},
+{
+    "name": "Torikizoku (Multiple Locations)",
+    "district": "Shinjuku",
+    "category": "izakaya",
+    "tags": ["izakaya", "cheap", "yakitori", "drinks", "casual", "salaryman", "chain", "nightlife", "budget", "social", "fast service"],
+    "description": "Popular cheap izakaya chain specializing in grilled skewers.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6905,
+        "lng": 139.7017
+    }
+},
+{
+    "name": "Beard Papa Cream Puffs (Shibuya)",
+    "district": "Shibuya",
+    "category": "dessert",
+    "tags": ["dessert", "cream puffs", "sweet", "snack", "casual", "chain", "fresh cream", "takeaway", "budget", "quick bite", "popular"],
+    "description": "Famous Japanese cream puff chain with fresh custard filling.",
+    "duration": 0.5,
+    "coordinates": {
+        "lat": 35.6599,
+        "lng": 139.7003
+    }
+},
+{
+    "name": "Udon Shin (Shinjuku)",
+    "district": "Shinjuku",
+    "category": "udon",
+    "tags": ["udon", "handmade noodles", "chewy", "japanese food", "queue", "casual dining", "lunch spot", "local favorite", "simple menu", "authentic", "comfort food"],
+    "description": "Highly rated udon shop known for freshly made chewy noodles.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6882,
+        "lng": 139.7013
+    }
+},
+{
+    "name": "Bills Omotesando",
+    "district": "Omotesando",
+    "category": "cafe",
+    "tags": ["brunch", "pancakes", "australian", "cafes", "trendy", "lifestyle", "relax", "date spot", "coffee", "aesthetic", "popular"],
+    "description": "Famous brunch cafe known for its fluffy ricotta pancakes.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6670,
+        "lng": 139.7120
+    }
+},
+{
+    "name": "Jingisukan Daruma (Shinjuku)",
+    "district": "Shinjuku",
+    "category": "yakiniku",
+    "tags": ["lamb", "grill", "japanese bbq", "hokkaido style", "smoky", "casual", "meat lovers", "hot grill", "local favorite", "beer", "interactive cooking"],
+    "description": "Famous lamb BBQ (jingisukan) restaurant with grill-at-your-table style.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6908,
+        "lng": 139.7009
+    }
+},
+{
+    "name": "KollaBo (Shibuya)",
+    "district": "Shibuya",
+    "category": "korean",
+    "tags": ["korean food", "bbq", "bibimbap", "kimchi", "hotpot", "casual", "flavors", "meat", "spicy", "shared plates", "popular"],
+    "description": "Korean restaurant chain offering BBQ, bibimbap and hot dishes.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6601,
+        "lng": 139.6989
+    }
+},
+{
+    "name": "Yang Guo Fu Mala Tang (Ikebukuro)",
+    "district": "Ikebukuro",
+    "category": "chinese",
+    "tags": ["chinese food", "malatang", "spicy", "hotpot style", "custom bowl", "sichuan", "numbing spice", "noodles", "street food style", "budget", "fast"],
+    "description": "Build-your-own spicy Chinese mala soup bowl restaurant.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.7298,
+        "lng": 139.7101
+    }
+},
+{
+    "name": "Gonpachi Nishi-Azabu",
+    "district": "Roppongi",
+    "category": "japanese",
+    "tags": ["izakaya", "tempura", "soba", "yakitori", "famous interior", "tourist spot", "date spot", "traditional fusion", "drinks", "nightlife", "stylish"],
+    "description": "Famous izakaya-style restaurant known for its cinematic interior.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6606,
+        "lng": 139.7263
+    }
+},
+{
+    "name": "Shabu-Shabu Onyasai (Shibuya)",
+    "district": "Shibuya",
+    "category": "shabu shabu",
+    "tags": ["hotpot", "shabu shabu", "all you can eat", "beef", "vegetables", "broth", "interactive cooking", "casual", "group dining", "comfort food", "budget friendly"],
+    "description": "Affordable shabu-shabu chain with unlimited options.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6589,
+        "lng": 139.7002
+    }
+},
+{
+    "name": "Din Tai Fung (Shinjuku)",
+    "district": "Shinjuku",
+    "category": "taiwanese",
+    "tags": ["taiwanese", "xiaolongbao", "dumplings", "soup dumplings", "international chain", "light meals", "elegant casual", "family friendly", "noodles", "consistent", "popular"],
+    "description": "World-famous Taiwanese restaurant known for soup dumplings.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6910,
+        "lng": 139.7012
+    }
+},
+{
+    "name": "Saryo Tsujiri (Ginza)",
+    "district": "Ginza",
+    "category": "dessert",
+    "tags": ["matcha", "japanese sweets", "parfait", "tea house", "aesthetic", "traditional modern", "cafes", "relax", "instagrammable", "light dessert", "green tea"],
+    "description": "Famous matcha dessert café specializing in Kyoto-style sweets.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6712,
+        "lng": 139.7640
+    }
+},
+{
+    "name": "Seoul Market Shinjuku",
+    "district": "Shinjuku",
+    "category": "korean",
+    "tags": ["korean food", "street food", "kimchi", "spicy", "bbq", "casual", "authentic vibe", "cheap eats", "noodles", "local style", "quick meals"],
+    "description": "Casual Korean food spot with street-style dishes.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6942,
+        "lng": 139.7021
+    }
+},
+{
+    "name": "Curry House CoCo Ichibanya (Multiple)",
+    "district": "Tokyo",
+    "category": "curry",
+    "tags": ["japanese curry", "comfort food", "custom spice", "cheap", "chain", "fast food", "rice dishes", "lunch spot", "casual", "filling", "popular"],
+    "description": "Japan’s most popular curry chain with customizable spice levels.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6895,
+        "lng": 139.7004
+    }
+},
+{
+    "name": "Shinjuku Kintan Yakiniku",
+    "district": "Shinjuku",
+    "category": "yakiniku",
+    "tags": ["japanese bbq", "premium meat", "beef", "lunch sets", "grill", "modern interior", "date spot", "high quality", "casual luxury", "meat lovers", "reservation"],
+    "description": "Stylish yakiniku restaurant known for high-quality beef sets.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6918,
+        "lng": 139.7019
+    }
+},
+{
+    "name": "Gyukatsu Motomura (Shibuya)",
+    "district": "Shibuya",
+    "category": "japanese",
+    "tags": ["beef cutlet", "gyukatsu", "grill stone", "crispy", "tender meat", "casual dining", "queue", "popular", "interactive cooking", "lunch spot", "comfort food"],
+    "description": "Famous gyukatsu restaurant where you lightly grill your beef cutlet at the table.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6606,
+        "lng": 139.6988
+    }
+},
+{
+    "name": "Chongqing Cuisine Yuurakucho",
+    "district": "Yurakucho",
+    "category": "chinese",
+    "tags": ["sichuan food", "spicy", "hotpot", "numbing pepper", "authentic chinese", "noodles", "bold flavors", "casual", "shared dishes", "city center", "night food"],
+    "description": "Spicy Sichuan restaurant known for bold mala flavors and hot dishes.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6745,
+        "lng": 139.7618
+    }
+},
+{
+    "name": "Shabuzen Ginza",
+    "district": "Ginza",
+    "category": "shabu shabu",
+    "tags": ["shabu shabu", "premium beef", "all you can eat", "hotpot", "elegant", "date spot", "luxury", "vegetables", "broth", "traditional", "group dining"],
+    "description": "High-end shabu-shabu restaurant offering premium meats and elegant dining.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6708,
+        "lng": 139.7642
+    }
+},
+{
+    "name": "Saryo Yakiniku Han No Daidokoro (Shibuya)",
+    "district": "Shibuya",
+    "category": "yakiniku",
+    "tags": ["wagyu", "japanese bbq", "premium meat", "grill", "luxury dining", "date spot", "high quality", "tender beef", "modern interior", "reservation", "fine dining"],
+    "description": "Premium yakiniku restaurant specializing in high-grade wagyu beef.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6578,
+        "lng": 139.6991
+    }
+},
+{
+    "name": "Han no Daidokoro Bettei (Shinjuku)",
+    "district": "Shinjuku",
+    "category": "yakiniku",
+    "tags": ["wagyu", "bbq", "luxury meat", "grill", "fine dining", "reservation", "beef course", "date spot", "premium experience", "japanese cuisine", "elegant"],
+    "description": "Upscale yakiniku restaurant with premium wagyu courses.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6902,
+        "lng": 139.7024
+    }
+},
+{
+    "name": "Korean BBQ Seoul Garden (Ikebukuro)",
+    "district": "Ikebukuro",
+    "category": "korean",
+    "tags": ["korean bbq", "grill", "kimchi", "spicy", "meat lovers", "group dining", "casual", "all you can eat", "fun experience", "shared plates", "night food"],
+    "description": "Popular Korean BBQ spot with grill-at-table experience.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.7291,
+        "lng": 139.7109
+    }
+},
+{
+    "name": "CoCo Ichibanya Curry House (Shinjuku)",
+    "district": "Shinjuku",
+    "category": "curry",
+    "tags": ["japanese curry", "comfort food", "cheap eats", "fast food", "custom spice", "rice dishes", "chain", "casual", "filling meals", "lunch spot", "popular"],
+    "description": "Reliable Japanese curry chain with customizable spice levels.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6907,
+        "lng": 139.7001
+    }
+},
+{
+    "name": "Din Tai Fung Shibuya Scramble Square",
+    "district": "Shibuya",
+    "category": "taiwanese",
+    "tags": ["dumplings", "xiaolongbao", "taiwanese", "soup dumplings", "international chain", "family friendly", "light meals", "noodles", "consistent quality", "casual elegant", "popular"],
+    "description": "Well-known Taiwanese restaurant famous for soup dumplings.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6575,
+        "lng": 139.7012
+    }
+},
+{
+    "name": "Sangubashi Curry House",
+    "district": "Yoyogi",
+    "category": "curry",
+    "tags": ["japanese curry", "homemade style", "comfort food", "local favorite", "budget", "hidden gem", "rice dishes", "casual", "small shop", "lunch spot", "authentic"],
+    "description": "Small local curry shop known for homemade-style dishes.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6789,
+        "lng": 139.6932
+    }
+},
+{
+    "name": "Ssam Korean Dining (Roppongi)",
+    "district": "Roppongi",
+    "category": "korean",
+    "tags": ["korean food", "bbq", "modern interior", "kimchi", "spicy", "drinks", "date spot", "casual luxury", "grill", "shared plates", "nightlife"],
+    "description": "Stylish Korean restaurant with BBQ and modern dining atmosphere.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6632,
+        "lng": 139.7310
+    }
+},
+{
+    "name": "Sumibi Yakiniku Nakahara (Nakameguro)",
+    "district": "Nakameguro",
+    "category": "yakiniku",
+    "tags": ["wagyu", "beef tongue", "grill", "charcoal", "premium meat", "reservation", "fine dining", "chef experience", "intimate", "date spot", "tasting course"],
+    "description": "Highly rated yakiniku restaurant specializing in premium wagyu and beef tongue courses.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6440,
+        "lng": 139.6989
+    }
+},
+{
+    "name": "Haidilao Hot Pot Shinjuku",
+    "district": "Shinjuku",
+    "category": "hotpot",
+    "tags": ["hotpot", "chinese food", "interactive", "spicy", "broth options", "entertainment", "noodles", "sichuan style", "service experience", "group dining", "modern"],
+    "description": "Famous Chinese hot pot chain known for high service and customizable broths.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6920,
+        "lng": 139.7015
+    }
+},
+{
+    "name": "Sangwoo Korean BBQ (Shibuya)",
+    "district": "Shibuya",
+    "category": "korean",
+    "tags": ["korean bbq", "grill", "meat lovers", "kimchi", "spicy", "casual dining", "drinks", "group friendly", "night food", "shared dishes", "modern"],
+    "description": "Casual Korean BBQ restaurant with a lively atmosphere.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6589,
+        "lng": 139.7009
+    }
+},
+{
+    "name": "Tendon Tenya (Multiple Locations)",
+    "district": "Tokyo",
+    "category": "tempura",
+    "tags": ["tempura", "rice bowl", "cheap eats", "fast food", "japanese comfort food", "chain", "crispy", "lunch spot", "casual", "budget", "quick meal"],
+    "description": "Affordable tempura rice bowl chain found all over Tokyo.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6895,
+        "lng": 139.7004
+    }
+},
+{
+    "name": "Szechuan Douhua Tokyo (Ikebukuro)",
+    "district": "Ikebukuro",
+    "category": "chinese",
+    "tags": ["sichuan food", "spicy", "tofu", "noodles", "authentic chinese", "budget friendly", "hotpot", "bold flavors", "street style", "casual", "local favorite"],
+    "description": "Small Sichuan restaurant known for spicy dishes and tofu specialties.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.7295,
+        "lng": 139.7102
+    }
+},
+{
+    "name": "Gyumon Shibuya",
+    "district": "Shibuya",
+    "category": "yakiniku",
+    "tags": ["cheap yakiniku", "beef", "grill", "casual", "budget", "fun experience", "meat lovers", "night food", "drinks", "smoky", "local vibe"],
+    "description": "Affordable yakiniku spot popular among young locals.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6600,
+        "lng": 139.6995
+    }
+},
+{
+    "name": "Katsuya Shinjuku",
+    "district": "Shinjuku",
+    "category": "japanese",
+    "tags": ["tonkatsu", "pork cutlet", "cheap eats", "fast food", "rice bowl", "comfort food", "chain", "casual", "filling meals", "lunch spot", "budget"],
+    "description": "Popular chain serving affordable tonkatsu meals.",
+    "duration": 1,
+    "coordinates": {
+        "lat": 35.6913,
+        "lng": 139.7008
+    }
+},
+{
+    "name": "Ganso Shabu Shabu Onyasai Roppongi",
+    "district": "Roppongi",
+    "category": "shabu shabu",
+    "tags": ["hotpot", "shabu shabu", "all you can eat", "beef", "vegetables", "casual dining", "group friendly", "interactive cooking", "comfort food", "broth", "budget friendly"],
+    "description": "Popular all-you-can-eat shabu-shabu chain in Roppongi.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6629,
+        "lng": 139.7305
+    }
+},
+{
+    "name": "Hong Kong Meisan Dim Sum (Ginza)",
+    "district": "Ginza",
+    "category": "chinese",
+    "tags": ["dim sum", "dumplings", "hong kong food", "steamed buns", "tea", "light meals", "casual elegant", "family friendly", "noodles", "authentic", "lunch"],
+    "description": "Traditional Hong Kong-style dim sum restaurant in Ginza.",
+    "duration": 1.5,
+    "coordinates": {
+        "lat": 35.6720,
+        "lng": 139.7641
+    }
+},
+{
+    "name": "Kintan Buffet Shinjuku",
+    "district": "Shinjuku",
+    "category": "yakiniku",
+    "tags": ["buffet", "yakiniku", "beef", "all you can eat", "modern interior", "casual luxury", "meat lovers", "group dining", "salad bar", "desserts", "reservation"],
+    "description": "Stylish all-you-can-eat yakiniku buffet with premium meat options.",
+    "duration": 2,
+    "coordinates": {
+        "lat": 35.6925,
+        "lng": 139.7020
+    }
+}
 ]
