@@ -1,8 +1,6 @@
 import numpy as np
 from sklearn.cluster import KMeans
-
 from math import radians, sin, cos, sqrt, atan2
-
 
 
 def haversine(a, b):
@@ -31,7 +29,6 @@ def sort_by_real_path(places):
         return []
 
     remaining = places.copy()
-
     ordered = [remaining.pop(0)]
 
     while remaining:
@@ -59,22 +56,17 @@ def sort_by_real_path(places):
 
     return ordered
 
+
 def build_itinerary(
     ranked_places,
     days,
     hours_per_day=8
 ):
 
-    # -------------------------
-    # 1. SACAR SOLO LOS LUGARES
-    # -------------------------
-
+    # 1. SOLO LUGARES
     places = [p for p, score in ranked_places]
 
-    # -------------------------
-    # 2. EXTRAER COORDENADAS
-    # -------------------------
-
+    # 2. COORDENADAS
     coords = np.array([
         [
             p["coordinates"]["lat"],
@@ -83,10 +75,7 @@ def build_itinerary(
         for p in places
     ])
 
-    # -------------------------
-    # 3. CLUSTERING (IA)
-    # -------------------------
-
+    # 3. CLUSTERING
     kmeans = KMeans(
         n_clusters=days,
         random_state=42,
@@ -95,32 +84,21 @@ def build_itinerary(
 
     labels = kmeans.fit_predict(coords)
 
-    # -------------------------
-    # 4. AGRUPAR POR CLUSTER
-    # -------------------------
-
+    # 4. AGRUPAR
     clusters = {}
 
     for label, place in zip(labels, places):
 
-        if label not in clusters:
-            clusters[label] = []
+        clusters.setdefault(label, []).append(place)
 
-        clusters[label].append(place)
-
-    # -------------------------
-    # 5. CREAR ITINERARIO POR DÍA
-    # -------------------------
-
+    # 5. ITINERARIO
     itinerary = []
 
     for day in range(days):
 
         day_places = clusters.get(day, [])
-
         day_places = sort_by_real_path(day_places)
 
-        # ordenar por relevancia dentro del cluster
         day_places = sorted(
             day_places,
             key=lambda x: x.get("score", 0),
@@ -129,15 +107,31 @@ def build_itinerary(
 
         remaining = hours_per_day
         final_day = []
-        
+
+        restaurant_count = 0
+        MAX_RESTAURANTS = 2
         MAX_DISTANCE_KM = 5
-        
+
         for place in day_places:
-        
-            if len(final_day) > 0:
-            
+
+            # -------------------------
+            # FILTRO RESTAURANTES
+            # -------------------------
+            is_restaurant = (
+                place.get("category", "").lower() == "restaurant"
+                or "restaurant" in place.get("category", "").lower()
+                or "restaurant" in [t.lower() for t in place.get("tags", [])]
+            )
+
+            if is_restaurant and restaurant_count >= MAX_RESTAURANTS:
+                continue
+
+            # -------------------------
+            # FILTRO DISTANCIA
+            # -------------------------
+            if final_day:
                 previous = final_day[-1]
-        
+
                 dist = haversine(
                     (
                         previous["coordinates"]["lat"],
@@ -148,14 +142,20 @@ def build_itinerary(
                         place["coordinates"]["lng"]
                     )
                 )
-        
+
                 if dist > MAX_DISTANCE_KM:
                     continue
-                
+
+            # -------------------------
+            # FILTRO TIEMPO
+            # -------------------------
             if place["duration"] <= remaining:
-            
+
                 final_day.append(place)
                 remaining -= place["duration"]
+
+                if is_restaurant:
+                    restaurant_count += 1
 
         itinerary.append(final_day)
 
